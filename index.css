@@ -281,7 +281,8 @@ a {
 .el__heading {
   color: #fdf9f6;
   text-transform: uppercase;
-  font-size: 18px;
+  font-family: LuloCleanOneBold, sans-serif;
+  font-size: 0.75em;
 }
 .el__content {
   z-index: -1;

@@ -138,6 +138,40 @@ body {
   font-size: 1rem;
 }
 
+.recommend {
+  margin-left: 5em;
+  margin-right: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  width: 80%;
+}
+
+.items h2{
+  margin-bottom: 7em;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item-list p{
+margin: 3rem;
+}
+
   @media (max-width: 900px) {
     .join-main-section {
       flex-direction: column;
